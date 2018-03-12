@@ -1,0 +1,33 @@
+.content {
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+}
+
+.icon {
+    color: yellow;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+.name {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: white;
+}
+.time {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: skyblue;
+}
+
+.until {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: gray;
+}
+
+.nawruz {
+    font-size: 2em;
+    font-weight: 300;
+}
