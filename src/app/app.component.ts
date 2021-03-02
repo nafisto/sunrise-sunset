@@ -42,7 +42,7 @@ export class AppComponent implements OnInit, OnDestroy {
     } else  if (now.isBefore(times.sunrise)) {
       this.name = 'Sunrise';
       this.time = times.sunrise;
-    } else if (now.isBefore(times.sunset) {
+    } else if (now.isBefore(times.sunset)) {
       this.name = 'Sunset';
       this.time = times.sunset;
     } else {
