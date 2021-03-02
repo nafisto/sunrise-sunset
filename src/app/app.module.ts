@@ -4,6 +4,7 @@ import { MomentModule } from 'angular2-moment';
 
 import { AppComponent } from './app.component';
 import { ClockService } from './clock.service';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -11,7 +12,7 @@ import { ClockService } from './clock.service';
     AppComponent
   ],
   imports: [
-    BrowserModule, MomentModule
+    BrowserModule, MomentModule, RouterModule.forRoot([])
   ],
   providers: [ClockService],
   bootstrap: [AppComponent]
