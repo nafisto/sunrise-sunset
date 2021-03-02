@@ -1,5 +1,5 @@
 <div class="content">
-  <div *ngIf="!isNawRuz" style="text-align:center">
+  <div *ngIf="!isHa && !isNawRuz" style="text-align:center">
     <div class="icon" *ngIf="name === 'Sunrise'">
       <i class="far fa-sun fa-2x"></i>
     </div>
@@ -17,4 +17,12 @@
     </div>
     <div class="nawruz">Happy<br/>Náw-Rúz!</div>
   </div>
+
+  <div *ngIf="isHa" style="text-align:center">
+    <div class="icon">
+      <i class="far fa-gem fa-2x"></i>
+    </div>
+    <div class="nawruz">Happy<br />Ayyám-i-Há!</div>
+  </div>
+
 </div>
