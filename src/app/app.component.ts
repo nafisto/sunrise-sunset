@@ -18,8 +18,8 @@ export class AppComponent implements OnInit, OnDestroy {
   private lng = -122.121;
 
   // TODO: make this dynamic to the year and exact equinox
-  private fastStart = moment(`${moment().year()}-02-29 18:00`);
-  private nawRuz = moment(`${moment().year()}-03-19 19:20`);
+  private fastStart = moment(`${moment().year()}-02-28 18:39`);
+  private nawRuz = moment(`${moment().year()}-03-20 19:20`);
 
   public name: string;
   public time: Date;
